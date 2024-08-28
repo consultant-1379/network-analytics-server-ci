@@ -1,0 +1,6 @@
+CMD||TestCaseSix||dir,..\test\tests||DIR,test suite one.txt||0
+CMD||TestCaseSeven||dir,..\test\tests||DIR,testsuite one.txt||0
+CMD||TestCaseEight||dir,..\test\tests||test suite one.txt||0
+CMD||TestCaseNine||dir,..\test\tests||DR||0
+LOG||TestCaseTen||Machine policy value 'DisableUserInstalls' is 0||utf16||PRESENT
+LOG||TestCaseEleven||NetAnServer Rocks||utf16||PRESENT

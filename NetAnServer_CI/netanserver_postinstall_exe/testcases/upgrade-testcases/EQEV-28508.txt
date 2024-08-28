@@ -1,0 +1,7 @@
+CMD||NetAnServer18A_18.0.3_0002-1||Powershell, C:\netanserver_postinstall_exe\resources\scripts\get_spotfire_server_software.ps1||TIBCO Spotfire Server 7.9||0
+CMD||NetAnServer18A_18.0.3_0002-2||Powershell, Get-Service -Name 'Tss790'||Running,TIBCO Spotfire Server 7.9||0
+LOG||NetAnServer18A_18.0.3_0003-1||Product: TIBCO Spotfire Server 7.9 -- Installation operation completed successfully||Server_Component||PRESENT
+LOG||NetAnServer18A_18.0.3_0003-2||Network Analytics Server Component is installed ||NetAnServer||PRESENT
+CMD||NetAnServer18A_18.0.3_0007-1||Powershell, Test-Path "C:\Ericsson\NetAnServer\Server\7.9\tomcat"||True||0
+CMD||NetAnServer17B_17.2.4_0029||Powershell, Test-Path "C:\Ericsson\tmp\Resources\Installer"||False||0
+CMD||NetAnServer17B_17.2.4_0030||Powershell, Test-Path "C:\Ericsson\tmp\Software\Server"||False||0

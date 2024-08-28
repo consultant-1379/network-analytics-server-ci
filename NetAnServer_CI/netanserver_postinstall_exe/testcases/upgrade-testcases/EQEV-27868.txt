@@ -1,0 +1,8 @@
+CMD||NetAnServer16B_3_005||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testPlatformVersionDBPostUpgrade.ps1 <OLD_PLATFORM> <NEW_PLATFORM>||PASSED||0
+LOG||NetAnServer16B_3_002-1||Testing upgrade media build: <NEW_PLATFORM> against installed build: <OLD_PLATFORM>||NetAnServer||PRESENT
+LOG||NetAnServer16B_3_002-2||Performing cleanup completed||NetAnServer||PRESENT
+LOG||NetAnServer16B_3_002-3||You have successfully completed the automated Upgrade of Network Analytics Server||NetAnServer||PRESENT
+LOG||NetAnServer16B_3_002-6||ERROR||NetAnServer||NOTPRESENT
+LOG||NetAnServer16B_3_002-7||error||NetAnServer||NOTPRESENT
+CMD||NetAnServer17A_3_001-1||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBackupRestoreScript.ps1 stop||PASSED||0
+CMD||NetAnServer17A_3_001-2||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBackupRestoreScript.ps1 start||PASSED||0

@@ -1,0 +1,6 @@
+CMD||NetAnServer-LCM-10.10.2_012-1||Powershell, Get-Service -Name 'Tss10102'||Running,TIBCO Spotfire Server 10.10.2 LTS||0
+CMD||NetAnServer-LCM-10.10.2_012-2||Powershell, Get-Service -Name 'WpNmRemote10102'||Running,TIBCO Spotfire Node Manager 10.10.2||0
+CMD||NetAnServer-LCM-10.10.2_012-3||Powershell, Restart-Service Tss10102 -wa 0; Get-Service -Name 'Tss10102'||Running,TIBCO Spotfire Server 10.10.2 LTS||0
+CMD||NetAnServer-LCM-10.10.2_012-4||Powershell, Restart-Service WpNmRemote10102 -wa 0; Get-Service -Name 'WpNmRemote10102'||Running,TIBCO Spotfire Node Manager 10.10.2||0
+CMD||NetAnServer-LCM-10.10.2_111-1||Powershell, C:\netanserver_postinstall_exe\resources\scripts\enableHSTS.ps1||Successfully enabled HSTS||0
+CMD||NetAnServer-LCM-10.10.2_111-2||Powershell, C:\netanserver_postinstall_exe\resources\scripts\disableHSTS.ps1||Successfully disabled HSTS||0

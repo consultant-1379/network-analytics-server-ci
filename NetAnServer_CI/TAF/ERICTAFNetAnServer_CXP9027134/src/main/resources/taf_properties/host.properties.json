@@ -1,0 +1,14 @@
+[
+   {
+	    "hostname": "adminHost",
+	    "ip": "<hostname>.athtem.eei.ericsson.se",
+	    "type": "UNKNOWN",
+	    "ports": {"http": 443}
+    },
+    {
+	    "hostname": "webplayerHost",
+	    "ip": "<hostname>.athtem.eei.ericsson.se",
+	    "type": "UNKNOWN",
+	    "ports": {"https": 443}
+    }
+]

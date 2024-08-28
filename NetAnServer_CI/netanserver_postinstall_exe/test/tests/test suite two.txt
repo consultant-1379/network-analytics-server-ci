@@ -1,0 +1,3 @@
+LOG||TestCaseThree||pattern||logtwo||PRESENT
+LOG||TestCaseFour||missing_pattern||logtwo||NOTPRESENT
+LOG||TestCaseFive||pattern||logthree||PRESENT

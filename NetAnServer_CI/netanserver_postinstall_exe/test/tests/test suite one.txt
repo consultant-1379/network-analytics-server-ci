@@ -1,0 +1,2 @@
+LOG||TestCaseOne||find this pattern||logone||PRESENT
+LOG||TestCaseTwo||this is another pattern||logone||NOTPRESENT

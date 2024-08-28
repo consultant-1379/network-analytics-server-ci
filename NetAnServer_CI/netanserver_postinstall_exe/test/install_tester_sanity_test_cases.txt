@@ -1,0 +1,29 @@
+Acceptence
+---------------
+Will Pick up Tests from Muliple Suites
+Will Pick Up Multiple Logs
+Will Execute Logs Parsing Tests
+Will Execute on Windows 2012 Server
+Will Generate test report
+Will Integrate with CI
+
+
+
+Functional
+----------------
+LOG
+====
+TestCaseOne: Pattern Present Condition Present - Expected Pass          
+TestCaseTwo: Pattern Present Condition NOTPRESENT - Expected Fail	   
+TestCaseThree: Pattern Missing Condition Present - Expected Fail
+TestCaseFour: Pattern Missing Condition NOTPRESENT - Expected Pass
+TestCaseFive: Log File Missing for a test - Expected Fail
+
+CMD
+===
+TestCaseSix execute command (two expected results) Both test conditions met - Expected PASS
+TestCaseSeven execute command (two expected results) One test case met, Second Test case failed - Expected FAIL
+TestCaseEight execute command (one expected result)  test condition met - Expected passed
+TestCaseNine  execute command (one expected result)  test condition not met - Expected failed
+TestCaseTen: Pattern Present against utf-16 little endian encoded file - Expected PASS
+TestCaseEleven: Pattern Missing Condition Present against utf-16 little endian encoded file - Expected Fail

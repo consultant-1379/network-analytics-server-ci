@@ -1,0 +1,53 @@
+1,"select oss_id,erbs, EutrancellFDD as cellname, utc_datetime_id,  100*((pmRrcConnEstabSucc/(pmRrcConnEstabAtt-pmRrcConnEstabAttReatt-(pmRrcConnEstabFailMmeOvlMos+pmRrcConnEstabFailMmeOvlMod)))
+   *(pmS1SigConnEstabSucc/(pmS1SigConnEstabAtt-pmS1SigConnEstabFailMmeOvlMos))
+   *(pmErabEstabSuccInit/pmErabEstabAttInit))  as MEASURE_VALUE 
+    
+  from dc.DC_E_ERBS_EUTRANCELLFDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>
+   union all
+
+   select oss_id,erbs, EutrancellTDD as cellname , utc_datetime_id,  100*((pmRrcConnEstabSucc/(pmRrcConnEstabAtt-pmRrcConnEstabAttReatt-(pmRrcConnEstabFailMmeOvlMos+pmRrcConnEstabFailMmeOvlMod)))
+   *(pmS1SigConnEstabSucc/(pmS1SigConnEstabAtt-pmS1SigConnEstabFailMmeOvlMos))
+   *(pmErabEstabSuccInit/pmErabEstabAttInit)) as MEASURE_VALUE
+   from dc.DC_E_ERBS_EUTRANCELLTDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>","select measure_id, RAW.oss_id as oss_id,DIM.erbs_ID as erbs, DIM.EUtranCellId as cellname,RAW.utc_datetime_id, MeasureValue
+from DC_CV_ERBS_EUTRANCELL_raw AS RAW
+inner join DIM_E_LTE_EUCELL AS DIM on
+RAW.NODE_FDN=DIM.ERBS_FDN AND 
+ RAW.CELL_FDN=DIM.EUTRANCELL_FDN AND
+ RAW.OSS_ID=DIM.OSS_ID
+where utc_datetime_id='d' and measure_id=1 <and cellname='n'>
+ order by erbs,cellname
+"
+2,"select oss_id,erbs, EutrancellFDD as cellname , utc_datetime_id, (pmPdcpVolDlDrb)/(pmSchedActivityCellDl/1000)  as MEASURE_VALUE 
+   from DC_E_ERBS_EUTRANCELLFDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>
+    
+   union all
+
+   select oss_id,erbs, EutrancellTDD as cellname , utc_datetime_id, (pmPdcpVolDlDrb)/(pmSchedActivityCellDl/1000)   as MEASURE_VALUE 
+   from DC_E_ERBS_EUTRANCELLTDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>","select measure_id, RAW.oss_id as oss_id,DIM.erbs_ID as erbs, DIM.EUtranCellId as cellname,RAW.utc_datetime_id, MeasureValue 
+from DC_CV_ERBS_EUTRANCELL_raw AS RAW
+inner join DIM_E_LTE_EUCELL AS DIM on
+RAW.NODE_FDN=DIM.ERBS_FDN AND 
+ RAW.CELL_FDN=DIM.EUTRANCELL_FDN AND
+ RAW.OSS_ID=DIM.OSS_ID
+where utc_datetime_id='d' and measure_id=2 <and cellname='n'>
+ order by erbs,cellname"
+3,"select oss_id,erbs, EutrancellFDD as cellname , utc_datetime_id, (pmPdcpVolUlDrb)/(pmSchedActivityCellUl/1000)  as MEASURE_VALUE 
+   from DC_E_ERBS_EUTRANCELLFDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>
+    
+   union all
+
+   select oss_id,erbs, EutrancellTDD as cellname , utc_datetime_id, (pmPdcpVolUlDrb)/(pmSchedActivityCellUl/1000)   as MEASURE_VALUE 
+   from DC_E_ERBS_EUTRANCELLTDD_RAW 
+   where utc_datetime_id='d' <and cellname='n'>","select measure_id, RAW.oss_id as oss_id,DIM.erbs_ID as erbs, DIM.EUtranCellId as cellname,RAW.utc_datetime_id, MeasureValue 
+from DC_CV_ERBS_EUTRANCELL_raw AS RAW
+inner join DIM_E_LTE_EUCELL AS DIM on
+RAW.NODE_FDN=DIM.ERBS_FDN AND 
+ RAW.CELL_FDN=DIM.EUTRANCELL_FDN AND
+ RAW.OSS_ID=DIM.OSS_ID
+where utc_datetime_id='d' and measure_id=3 <and cellname='n'>
+ order by erbs,cellname"

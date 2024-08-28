@@ -1,0 +1,5 @@
+CMD||NetAnServer17B_17.2.4_0039||Powershell,Get-Service -Name 'TSSS75StatisticalServices'||Running||0
+CMD||NetAnServer17B_17.2.4_0038||Powershell, Test-Path C:\Ericsson\NetAnServer\StatisticalServices ||True||0
+LOG||NetAnServer17B_17.2.4_0037-1||Starting Network Analytics Statistical Services Installation||AdhocEnabler||PRESENT
+LOG||NetAnServer17B_17.2.4_0037-2||Network Analytics Statistical Services successfully installed||AdhocEnabler||PRESENT
+LOG||NetAnServer17B_17.2.4_0037-3||Network Analytics Server Ad-Hoc Enabler Package successfully installed||AdhocEnabler||PRESENT

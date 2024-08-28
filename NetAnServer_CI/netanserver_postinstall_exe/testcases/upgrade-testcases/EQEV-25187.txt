@@ -1,0 +1,1 @@
+CMD||NetAnServer18A_18.0.3_0038-1||Powershell, C:\Ericsson\NetAnServer\Server\7.9\tomcat\bin\config.bat list-groups --tool-password=Ericsson01||Consumer||0

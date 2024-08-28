@@ -1,0 +1,49 @@
+LOG||NetAnServer-LCM-10.10.2_002-1||PostgreSQL Server Running||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-2||PostgreSQL database netanserver_db created successfully||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-3||ERROR: Cannot connect to the PostgreSQL server, please recheck the installation||NetAnServer||NOTPRESENT
+LOG||NetAnServer-LCM-10.10.2_002-4||Network Analytics Server Component is installed||NetAnServer||PRESENT
+CMD||NetAnServer-LCM-10.10.2_002-5||dir,C:\Ericsson\NetAnServer\Server\10.10.2\tomcat\lib||jconn-4.jar||0
+LOG||NetAnServer-LCM-10.10.2_002-6||Deploying jconn4 driver to C:\Ericsson\NetAnServer\Server\10.10.2\tomcat\lib\||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-7||Entering the default configuration of Server Component - Network Analytics Server||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-8||Configuration of Network Analytics Server successfully completed||NetAnServer||PRESENT
+CMD||NetAnServer-LCM-10.10.2_002-10||Powershell, Test-Path C:\Ericsson\tmp\Resources\jconn||False||0
+CMD||NetAnServer-LCM-10.10.2_002-11||Powershell, Test-Path "C:\Ericsson\tmp\Resources\config"||False||0
+CMD||NetAnServer-LCM-10.10.2_002-12||Powershell, Test-Path "C:\Ericsson\tmp\Scripts"||False||0
+LOG||NetAnServer-LCM-10.10.2_002-13||Network Analytics Node Manager Component is installed||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-14||Network Analytics Automation Services configuration files updated||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-15||Network Analytics Web Player service configuration files updated||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-16||Successfully Trusted New Node||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-17||Install of Library Structure was successfull||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-18||Performing cleanup completed||NetAnServer||PRESENT
+LOG||NetAnServer-LCM-10.10.2_002-19||You have successfully completed the automated Upgrade of Network Analytics Server||NetAnServer||PRESENT
+CMD||NetAnServer-LCM-10.10.2_003-1||Powershell, C:\netanserver_postinstall_exe\resources\scripts\get_spotfire_server_software.ps1||TIBCO Spotfire Server 10.10.2 LTS||0
+LOG||NetAnServer-LCM-10.10.2_004-1||ERROR||NetAnServer||NOTPRESENT
+LOG||NetAnServer-LCM-10.10.2_004-2||error||NetAnServer||NOTPRESENT
+LOG||NetAnServer-LCM-10.10.2_004-3||Error||NetAnServer||NOTPRESENT
+LOG||NetAnServer-LCM-10.10.2_004-4||Warning||NetAnServer||NOTPRESENT
+LOG||NetAnServer-LCM-10.10.2_004-5||warning||NetAnServer||NOTPRESENT
+CMD||NetAnServer-LCM-10.10.2_011-1||Powershell, Get-ScheduledTask -TaskName NetAn_Data_Collector_Daily_Start_Up||NetAn_Data_Collector_Daily_Sta,Ready||0
+CMD||NetAnServer-LCM-10.10.2_011-2||Powershell, Get-ScheduledTask -TaskName NetAn_Data_Collector_On_Reboot||NetAn_Data_Collector_On_Reboot,Ready||0
+CMD||NetAnServer-LCM-10.10.2_011-3||Powershell, Get-ScheduledTask -TaskName NetAn_Data_Collector_Start_Up||NetAn_Data_Collector_Start_Up,Ready||0
+CMD||NetAnServer-LCM-10.10.2_013-1||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBackupRestoreScript.ps1 stop||PASSED||0
+CMD||NetAnServer-LCM-10.10.2_013-2||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBackupRestoreScript.ps1 start||PASSED||0
+LOG||NetAnServer-LCM-10.10.2_006-1||Successfully created the new user 'Consum01'||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_006-2||Successfully added the user 'Consum01' as a member of the 'Consumer' group||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_006-3||Successfully deleted the user 'Consum01'||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_006-4||Successfully set the password for user 'Consum01'||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_007-1||Successfully created the new user 'BAuthor01'||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_007-2||Successfully added the user 'BAuthor01' as a member of the 'Business Author' group||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_007-3||Successfully created the new user 'BAnalyst01'||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_007-4||Successfully added the user 'BAnalyst01' as a member of the 'Business Analyst' group||userLog||PRESENT
+LOG||NetAnServer-LCM-10.10.2_007-5||Successfully added the user 'Consum01' as a member of the 'Business Author' group||userLog||PRESENT
+CMD||NetAnServer-LCM-10.10.2_005-1||Powershell, Test-Path C:\Ericsson\NetAnServer\Features\Ad-HocEnabler\feature-release* ||True||0
+LOG||NetAnServer-LCM-10.10.2_005-2||Network Analytics Server Ad-Hoc Enabler Package successfully installed||AdhocEnabler||PRESENT
+CMD||NetAnServer-LCM-10.10.2_0012-1||Powershell, Test-Path "C:\Ericsson\NetAnServer\AutomationServices\10.10.2\Spotfire.Dxp.Automation.ClientJobSender.exe"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-2||Powershell, Test-Path "C:\Ericsson\NetAnServer\AutomationServices\10.10.2\Spotfire.Dxp.Automation.ClientJobSender.exe.Config"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-3||Powershell, Test-Path "C:\Ericsson\Analyst\setup.exe"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-4||Powershell, Test-Path "C:\Ericsson\languagepack"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-5||Powershell, Test-Path "C:\Ericsson\NetAnServer\Scripts\sso\ConfigureNetAnSSO.ps1"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-6||Powershell, Test-Path "C:\Ericsson\NetAnServer\Scripts\sso\sso-config-disable.txt"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-7||Powershell, Test-Path "C:\Ericsson\NetAnServer\Scripts\sso\sso-config-enable.txt"||True||0
+CMD||NetAnServer-LCM-10.10.2_0012-8||Powershell, Test-Path "C:\Ericsson\NetAnServer\Scripts\sso\sso-config-re-enable.txt"||True||0
+

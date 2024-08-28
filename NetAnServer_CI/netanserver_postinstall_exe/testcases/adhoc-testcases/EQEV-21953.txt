@@ -1,0 +1,10 @@
+CMD||NetAnServer16A_11_0001||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addBusinessAnalyst.ps1||passed||0
+CMD||NetAnServer16A_11_0010||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addBusinessAnalystWrongPassword.ps1||The platform password supplied is incorrect||0
+CMD||NetAnServer16A_11_0002||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addBusinessAuthor.ps1||passed||0
+CMD||NetAnServer16A_11_0009||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addBusinessAuthorWrongPassword.ps1||The platform password supplied is incorrect||0
+CMD||NetAnServer16A_11_0006||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testUserPromotion.ps1||passed||0
+CMD||NetAnServer16A_11_0044||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testUserPromotionAnalystToAuthor.ps1||User 'BAnalyst01' is already a member of the 'Business Analyst' group. The 'Business Analyst' group contains all privileges provided by the 'Business Author' group.||0
+CMD||NetAnServer18A_18.0.3_0041||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBusinessAnalystLicence.ps1||Count:148||0
+CMD||NetAnServer18A_18.0.3_0040||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testBusinessAuthorLicence.ps1||Count:147||0
+CMD||NetAnServer16A_11_0041||Powershell, Test-Path C:\Ericsson\NetAnServer\Features\Ad-HocEnabler\feature-release* ||True||0
+LOG||NetAnServer16A_10_0005-3||Network Analytics Server Ad-Hoc Enabler Package successfully installed||AdhocEnabler||PRESENT

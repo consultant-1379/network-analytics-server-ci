@@ -1,0 +1,950 @@
+---
+teams:
+  Doozers:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Add LTE Node:
+        active: false
+      Cell Management:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Add LTE Node:
+        active: false
+  Boru:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CBA Add Node:
+        active: false
+      CBA Read Non-Persistence Attribute:
+        active: false
+      CBA Sync Node:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CBA Add Node:
+        active: false
+      CBA Read Non-Persistence Attribute:
+        active: false
+      CBA Sync Node:
+        active: false
+  Team:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+  America:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+  Blue Sky:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM CLI:
+        active: false
+  Ciphers:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      PKI Web CLI:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      Node Security_SL2:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PKI Web CLI:
+        active: false
+      Node Security_SL2:
+        active: false
+      Node Security_G1_CrlCheck:
+        active: false
+      Node Security_G1_CrlCheck_Rbac:
+        active: false
+  Classic:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      PKI Web CLI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PKI Web CLI:
+        active: false
+  Volt:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CellTraceDecoderSuite:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CellTraceDecoderSuite:
+        active: false
+  Dakka:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      AdvancedMOScripting_UserInterface:
+        active: false
+      AdvancedMOScripting_Services:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      AdvancedMOScripting_UserInterface:
+        active: false
+      AdvancedMOScripting_Services:
+        active: false
+      Desktop_UserInterface:
+        active: false
+  Fusion:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM Import:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM Import:
+        active: false
+  Zenith:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      SoftwareHardwareManager_InventoryExports:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareManagementRepositoryService:
+        active: false
+      SoftwareHardwareManager_InventoryExports:
+        active: false
+  Apollo:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM Export:
+        active: false
+      CM Config:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM Export:
+        active: false
+      CM Config:
+        active: false
+  ROP Stars:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Topology Browser:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Topology Browser:
+        active: false
+  Thalaiva:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      SoftwareHardwareManager_Restore:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_Restore:
+        active: false
+  DespicableUs:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      User Management:
+        active: false
+      RoleManagement_RFALoop250:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PKI Web CLI ExtCA:
+        active: false
+      User Profile Menu:
+        active: false
+      UI Access Control:
+        active: false
+      Credential Manager WebCliHandler:
+        active: false
+      Policy Management:
+        active: false
+      RoleManagement_UI:
+        active: false
+      HaProxySouthBoundFunctional:
+        active: false
+      TargetGroupManagement_UI:
+        active: false
+      User Management:
+        active: false
+  Dynamo:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      PMIC_CPP:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      PM_STATISTICAL:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_CPP:
+        active: false
+  Titans:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      SoftwareHardwareManager_License:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_License:
+        active: false
+  Vulcanians:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Software Sync:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Upgrade Independence:
+        active: false
+      Software Sync:
+        active: false
+  Oasis:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM Export:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      ClientScripting:
+        active: false
+      ClientScriptingInternalExt:
+        active: false
+      CM Export:
+        active: false
+      Cell Consistency Check:
+        active: false
+      COM/ECIM Config:
+        active: false
+  LooneyTunes:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM Export:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CM Export:
+        active: false
+      COM/ECIM Config:
+        active: false
+  Quarks:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Router6672 Notification:
+        active: false
+      FM_Acceptance_Test:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_Acceptance_Test:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM_Er6000:
+        active: false
+      R6000_CliLaunch_MT:
+        active: false
+      MiniLink Indoor Discovery Service:
+        active: false
+      ER6000 Mediation Configuration:
+        active: false
+      Router6672 Notification:
+        active: false
+      ER6000PM:
+        active: false
+  EMPERORS:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      ENIQ Integration:
+        active: false
+  Challengers:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Healthcheck RFA250:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Healthcheck:
+        active: false
+  Cumulus:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      FM_Acceptance_Test:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_Acceptance_Test:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM_Acceptance_Test:
+        active: false
+  Mavericks:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Network Explorer:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Network Explorer:
+        active: false
+  Odin:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      AutoProvisioning:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      AutoProvisioning:
+        active: false
+      IpAddressChange:
+        active: false
+  ScrumU:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      AutoProvisioning:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      AutoProvisioning:
+        active: false
+      IpAddressChange:
+        active: false
+  Sovereign:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      crudaTestCases:
+        active: false
+  Team America:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CLI Collection Scenarios:
+        active: false
+  Skyfall:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Node Security_Certificate Issue positive:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Node Security_Credentials SshKey Create/Update:
+        active: false
+      Node Security_Rbac:
+        active: false
+      Node Security_Trust Distribute Remove:
+        active: false
+      Node Security_Iscf:
+        active: false
+      COM AA Service:
+        active: false
+      Identity Management Services:
+        active: false
+      Node Security_Certificate Issue Reissue:
+        active: false
+      COM AA Info:
+        active: false
+  Mars:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      FM_CORBA_NBI:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_CORBA_NBI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM_AlarmSearch:
+        active: false
+      FM_CppMediation:
+        active: false
+  Dhruva:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      FM_Acceptance_Services_Test:
+        active: false
+      FM_Acceptance_Test:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_Acceptance_Services_Test:
+        active: false
+      FM_Acceptance_Test:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM_Services:
+        active: false
+  Vindhyas:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Cell Management:
+        active: false
+  Atlas:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Cell Management:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      IpAddressChange:
+        active: false
+  Europa:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      FM_Acceptance_Services_Test:
+        active: false
+      FM_Acceptance_Test:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_Acceptance_Services_Test:
+        active: false
+      FM_Acceptance_Test:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM CLI Baseband Radio Node Specific Test:
+        active: false
+      NETLOG:
+        active: false
+      FM CLI Baseband Radio Node Connection Test:
+        active: false
+  Totoro:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CM Revocation:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Revocation:
+        active: false
+      CM Events:
+        active: false
+  Mjolnir:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      CPP Sync Node for ERBS:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      CPP Sync Node:
+        active: false
+  Autobots:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Automatic ID Management:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Automatic ID Management:
+        active: false
+  Decepticons:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Automatic ID Management:
+        active: false
+  Warriors:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      PM_MOINSTANCE:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      PM_UETR:
+        active: false
+      PMIC_CBS:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_CBS:
+        active: false
+  Jupiter:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      FM_Acceptance_Test UI_Overview_Search_Routing:
+        active: false
+      FM_Acceptance_Test UI:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      FM_Acceptance_Test UI_Overview_Search_Routing:
+        active: false
+      FM_Acceptance_Test UI:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      NETLOG_DG2:
+        active: false
+      FM_AlarmMonitor:
+        active: false
+  Tatooine:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      bnsi-nbi-fmacceptancetestware:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      bnsi-nbi-fmacceptancetestware:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      FM CLI Sgsn Specific Test:
+        active: false
+      FM_CLI:
+        active: false
+  Burgundy:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Network Health Monitor:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Network Health Monitor:
+        active: false
+  Trident:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      SoftwareHardwareManager_Upgrade:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_Upgrade:
+        active: false
+  Maintrack:
+    email: []
+    RFA250:
+      buildsToEmail: 3
+      Check Users and Nodes:
+        active: false
+    RFA250Staging:
+      buildsToEmail: 3
+      Check Users and Nodes:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      Check Users and Nodes:
+        active: false
+  Chanakya:
+    email: []
+    RFA250Staging:
+      buildsToEmail: 3
+      PM_CELLTRAFFIC:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_CCTR:
+        active: false
+  HEISENBERG:
+    email: []
+    RFA250Staging:
+      buildsToEmail: 3
+      PMIC_EBM:
+        active: false
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_EBM:
+        active: false
+  Bazinga:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PM_EBS:
+        active: false
+  Heisenburg:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PM_EBS:
+        active: false
+  The16thFloor:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PKI Manager UI_2:
+        active: false
+      PKI Manager UI:
+        active: false
+      SingleSignOn:
+        active: false
+      SingleSignOn REST:
+        active: false
+      Generic Identity Configuration Password Settings:
+        active: false
+      SSOUtilities:
+        active: false
+      Generic Identity Configuration Validation Rules:
+        active: false
+      Password History Backend:
+        active: false
+      Password Compliance:
+        active: false
+      Generic Identity Configuration General Settings:
+        active: false
+      Generic Identity Configuration User Profile Settings:
+        active: false
+  Big Trick:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Help Search:
+        active: false
+      Activity Service_Rest:
+        active: false
+      Web Push:
+        active: false
+      Activity Service_UI:
+        active: false
+  Ajeya:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_License:
+        active: false
+  Flying Galahad:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      TEI like scripting:
+        active: false
+  Curiosity:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Login Page:
+        active: false
+  Nirvana:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PKI Registration Authority Certificate Management Protocol:
+        active: false
+  Sunrise:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PM_ULSA:
+        active: false
+      PMIC_COM/ECIM:
+        active: false
+  Bruisers:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_Router6672:
+        active: false
+      IP NE Discovery Service:
+        active: false
+  Mercury:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      FLS Functional:
+        active: false
+      PMIC_CTUM:
+        active: false
+      PMIC_RBAC_UI:
+        active: false
+  The Goonies:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Authentication Failure:
+        active: false
+      UpdateOssModelIdentity:
+        active: false
+  Fenrir:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_CPP:
+        active: false
+  Abhedya:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PKI Registration Authority Simple Certificate Enrollment Protocol:
+        active: false
+      Node Security CrlCheck:
+        active: false
+      PKI CDPS:
+        active: false
+  Wind Waker:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      SoftwareHardwareManager_MINI-LINK:
+        active: false
+      MiniLinkAddNode_Outdoor:
+        active: false
+      Minilink_Indoor_CliLaunch_NetsimNodes:
+        active: false
+  District11:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Import/Export Backend:
+        active: false
+      Credential Manager CLI:
+        active: false
+      User Management Backend:
+        active: false
+      Role Management Backend:
+        active: false
+      Change Password:
+        active: false
+      Privilege Management Backend:
+        active: false
+      Single Logon Service Backend:
+        active: false
+      Target Group Management Backend:
+        active: false
+      MySQL:
+        active: false
+      OpenIDM Synchronization:
+        active: false
+      OpenDJ:
+        active: false
+      OpenIDM Home Directory:
+        active: false
+  XFiles:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Template Manager:
+        active: false
+      FrontHaulLaunchCraftTerminalMT:
+        active: false
+      IP Fronthaul6080 Discovery:
+        active: false
+      Service Definition:
+        active: false
+      Service Manager:
+        active: false
+      FrontHaul6080CliLaunchNetsimNodesMT:
+        active: false
+      FrontHaul6080CMMT:
+        active: false
+  UISDK:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Log Viewer:
+        active: false
+      Launcher:
+        active: false
+  Quasar:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      NETLOG:
+        active: false
+      FM_Cli:
+        active: false
+  Sentinels:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      ENM System Monitor RHQ:
+        active: false
+  Buccaneers:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_COM/ECIM:
+        active: false
+  Link's Awakening:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      MINI-LINK Indoor CM Synchronization:
+        active: false
+      MiniLinkAddNode_Indoor:
+        active: false
+      MINI-LINK Indoor FM:
+        active: false
+      MINI-LINK Indoor CM Write:
+        active: false
+  Intrepid:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Automatic ID Management:
+        active: false
+  X MEN:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      ENIQ Integration:
+        active: false
+  The Avengers:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Dynamic CM REST Interface_Configuration:
+        active: false
+      CM CLI Action Command:
+        active: false
+      Dynamic CM REST Interface_Bulk:
+        active: false
+      Dynamic Export:
+        active: false
+  Hack:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      IP Fronthaul6080 Discovery:
+        active: false
+  GUINNESS:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      CISCO-ASR9000 Routers Network Discovery:
+        active: false
+      CiscoASR900 Routers Network Discovery:
+        active: false
+      JUNIPER-MX Routers Network Discovery:
+        active: false
+  THEAvengers:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      CM Import:
+        active: false
+  BigTrick:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Network Explorer:
+        active: false
+  Guinnes-TheGoonies:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      FM Acceptance Service Test CISCO:
+        active: false
+      FM Acceptance Test JUNIPER:
+        active: false
+      FM Acceptance Test CISCO:
+        active: false
+      FM Acceptance Service Test JUNIPER:
+        active: false
+  Xfiles:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      FM_Acceptance_Test_FH:
+        active: false
+  Rivendell:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      CPP Sync Node:
+        active: false
+  LinksAwakening:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      LaunchCraftTerminal:
+        active: false
+  Eklavya:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      PMIC_CTR:
+        active: false
+  J-Team:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      COM/ECIM CM Heartbeat Supervision:
+        active: false
+      COM/ECIM CM Notification:
+        active: false
+  Raisers:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      NNI Add Node:
+        active: false
+  Fortress:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Migration:
+        active: false
+  SMART:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      Diagnostic Data Collection_Operations:
+        active: false
+  Voyager:
+    email: []
+    LongLoop:
+      buildsToEmail: 3
+      License Manager:
+        active: false

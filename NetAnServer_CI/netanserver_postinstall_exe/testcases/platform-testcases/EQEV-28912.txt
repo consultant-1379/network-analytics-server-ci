@@ -1,0 +1,1 @@
+CMD||NetAnServer17B_17.2.4_0031||Powershell, C:\netanserver_postinstall_exe\resources\scripts\test_platformVersion.ps1||Passed||0

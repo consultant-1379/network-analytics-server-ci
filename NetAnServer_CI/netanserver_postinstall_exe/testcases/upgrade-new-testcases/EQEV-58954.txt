@@ -1,0 +1,2 @@
+CMD||NetAnServer-LCM-10.10.2_012-1||Powershell, Get-Service -Name 'Tss10102'||Running,TIBCO Spotfire Server 10.10.2 LTS||0
+CMD||NetAnServer-LCM-10.10.2_012-2||Powershell, Get-Service -Name 'WpNmRemote10102'||Running,TIBCO Spotfire Node Manager 10.10.2||0

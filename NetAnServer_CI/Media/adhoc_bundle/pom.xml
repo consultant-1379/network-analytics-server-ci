@@ -1,0 +1,35 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netanserver.ci</groupId>
+  <artifactId>adhoc-bundle-dependencies</artifactId>
+  <version>1</version>
+  <dependencies>
+  	<dependency>
+        <groupId>com.ericsson.eniq</groupId>
+        <artifactId>Ericsson-network-analytics-server-ad-hoc-enabler-package</artifactId>
+        <version>RELEASE</version>
+  		<type>zip</type>
+  	</dependency>
+   </dependencies>
+  <build>
+  	<plugins>
+  		<plugin>
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <outputDirectory></outputDirectory>
+              <includeArtifacIds>Ericsson-network-analytics-server-ad-hoc-enabler-package</includeArtifacIds>
+              <includeGroupIds>com.ericsson.eniq</includeGroupIds>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

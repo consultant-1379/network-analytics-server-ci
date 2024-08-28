@@ -1,0 +1,4 @@
+CMD||NetAnServer18A_18.0.3_0010-1||Powershell,Get-Service -Name 'WpNmRemote790'||Running,TIBCO Spotfire Node Manager 7.9||0
+CMD||NetAnServer18A_18.0.3_0010-2||Powershell, C:\netanserver_postinstall_exe\resources\scripts\get_node_manager_software.ps1||TIBCO Spotfire Node Manager 7.9||0
+LOG||NetAnServer18A_18.0.3_0032-1||Product: TIBCO Spotfire Node Manager 7.9 -- Installation operation completed successfully||Node_Manager||PRESENT
+LOG||NetAnServer18A_18.0.3_0032-2||Network Analytics Node Manager Component is installed ||NetAnServer||PRESENT

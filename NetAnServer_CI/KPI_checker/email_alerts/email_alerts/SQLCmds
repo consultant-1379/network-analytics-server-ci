@@ -1,0 +1,4 @@
+#File Where SQLs for dataloading tests are placed along with their acceptable time limit in hours
+#Syntax: SQL Command,Time Limit
+select max(DATETIME_ID) from dc_e_volte_kpi_raw,0.25
+select max(DATETIME_ID) from dc_e_volte_kpi_raw,0.1

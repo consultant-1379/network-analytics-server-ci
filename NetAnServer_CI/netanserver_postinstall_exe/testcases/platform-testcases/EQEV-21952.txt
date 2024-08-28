@@ -1,0 +1,2 @@
+CMD||NetAnServer17B_17.2.4_0015||sqlcmd,-Usa,-PEricsson01,-Q,SELECT name FROM sys.databases||netAnServer_repdb||0
+CMD||NetAnServer17B_17.2.4_0016||Powershell, C:\netanserver_postinstall_exe\resources\scripts\verify_repdb_inserts.ps1||passed||0

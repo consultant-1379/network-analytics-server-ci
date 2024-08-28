@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8"/>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <title><%= yield_content(:title) %></title>
+
+      <!-- The javascript and css are managed by sprockets. The files can be found in the /assets folder-->
+      <script type="text/javascript" src="/assets/application.js"></script>
+      <link rel="stylesheet" href="/assets/application.css">
+
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+      <link rel="icon" href="/assets/favicon.ico"></head><script type='text/javascript'>
+      $(function() {
+        var height = ($( window ).height() / 8) - 40;
+        var width =  ($( window ).width() / 5) - 20;
+        Dashing.widget_base_dimensions = [width,height]
+
+      });
+    </script><div><h1 style="font-size:60px">A&O Maintrack RFA250 Staging Dashboard</h1></div><div class="gridster"><ul><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="PM_UETR_Warriors" data-view="RFAMaintrack" data-unordered="true" data-title="Warriors" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="PMIC_CBS_Warriors" data-view="RFAMaintrack" data-unordered="true" data-title="Warriors" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="PM_STATISTICAL_Dynamo" data-view="RFAMaintrack" data-unordered="true" data-title="Dynamo" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="PM_CELLTRAFFIC_Chanakya" data-view="RFAMaintrack" data-unordered="true" data-title="Chanakya" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="Cell Management_Vindhyas_Doozers_Atlas" data-view="RFAMaintrack" data-unordered="true" data-title="Vindhyas_Doozers_Atlas" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="FM_AlarmMonitor_Jupiter" data-view="RFAMaintrack" data-unordered="true" data-title="Jupiter" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="FM_AlarmSearch_Mars" data-view="RFAMaintrack" data-unordered="true" data-title="Mars" data-moreinfo=""></div><li data-switcher-interval="10000" data-row="1" data-col="1" data-sizex="1" data-sizey="1"><div data-id="Check Users and Nodes_Maintrack" data-view="RFAMaintrack" data-unordered="true" data-title="Maintrack" data-moreinfo=""></div></ul><div data-id="ticker" data-view="Ticker" data-scroll_orientation="horizontal" style="display: none;"></div></div>

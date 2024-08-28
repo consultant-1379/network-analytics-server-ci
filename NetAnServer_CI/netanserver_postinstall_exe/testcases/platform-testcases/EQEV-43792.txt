@@ -1,0 +1,2 @@
+CMD||NetAnServer18A_18.0.8_0012-1||Powershell, Test-Path "C:\Ericsson\NetAnServer\AutomationServices\7.9\Spotfire.Dxp.Automation.ClientJobSender.exe"||True||0
+CMD||NetAnServer18A_18.0.8_0012-2||Powershell, Test-Path "C:\Ericsson\NetAnServer\AutomationServices\7.9\Spotfire.Dxp.Automation.ClientJobSender.exe.Config"||True||0

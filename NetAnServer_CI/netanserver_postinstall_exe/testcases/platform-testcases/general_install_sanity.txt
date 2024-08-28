@@ -1,0 +1,5 @@
+LOG||GeneralError-1||ERROR||NetAnServer||NOTPRESENT
+LOG||GeneralError-2||error||NetAnServer||NOTPRESENT
+LOG||GeneralError-3||Error||NetAnServer||NOTPRESENT
+LOG||GeneralWarning-1||Warning||NetAnServer||NOTPRESENT
+LOG||GeneralWarning-3||warning||NetAnServer||NOTPRESENT

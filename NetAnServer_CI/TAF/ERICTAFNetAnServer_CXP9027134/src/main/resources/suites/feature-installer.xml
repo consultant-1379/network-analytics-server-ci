@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FeatureInstaller-TestSuite">
+	<parameter name="taf.repeat-count" value="1"/>
+    <test name="FeatureInstaller">
+        <classes>
+            <class name="ie.ericsson.netanserver.testcases.NetAnServerFeatureInstallTestCases"></class>
+        </classes>
+    </test>
+</suite>

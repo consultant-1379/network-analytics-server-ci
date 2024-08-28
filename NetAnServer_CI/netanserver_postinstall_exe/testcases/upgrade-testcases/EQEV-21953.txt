@@ -1,0 +1,8 @@
+CMD||NetAnServer17B_17.2.4_0017||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testAddUser.ps1||passed||0
+CMD||NetAnServer17B_17.2.4_0018||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testGetUsers.ps1||passed||0
+CMD||NetAnServer17B_17.2.4_0019||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testGetUsersWrongPassword.ps1||The platform password supplied is incorrect||0
+CMD||NetAnServer17B_17.2.4_0020||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testRemoveUser.ps1||passed||0
+CMD||NetAnServer17B_17.2.4_0021||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testRemoveUserWrongPassword.ps1||The platform password supplied is incorrect||0
+CMD||NetAnServer17B_17.2.4_0022||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addConsumerUser.ps1||passed||0
+CMD||NetAnServer17B_17.2.4_0023||Powershell, C:\netanserver_postinstall_exe\resources\scripts\addConsumerUserWrongPassword.ps1||The platform password supplied is incorrect||0
+CMD||NetAnServer17B_17.2.4_0024||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testConsumerLicence.ps1||Count:37||0

@@ -1,0 +1,3 @@
+LOG||NetAnServer17B_17.2.4_0035||Copying the server certificate failed.||NetAnServer||NOTPRESENT
+LOG||NetAnServer17B_17.2.4_0036-1||Network Analytics server configuration file updated.||NetAnServer||PRESENT
+LOG||NetAnServer17B_17.2.4_0036-2||Network Analytics Web Player service configuration files updated.||NetAnServer||PRESENT

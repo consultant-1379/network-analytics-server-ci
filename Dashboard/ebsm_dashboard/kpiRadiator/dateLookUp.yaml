@@ -1,0 +1,13 @@
+---
+buildsToMonitor: 7
+confluenceID: 204300580
+miniConfluenceID: 209055012
+newestDate: 2017-07-18 8_00_00
+atclvm1351:
+  VoLTE: 2017-07-18 8_00_00
+  VoWIFI: 2017-07-18 8_00_00
+  InfoStore: 2017-07-18 8_00_00
+  RANCapacityManagement: 2017-07-18 8_00_00
+  TWAMP: 2017-07-18 8_00_00
+  Energy: 2017-07-18 8_00_00
+  LTEOpt: 2017-07-18 8_00_00

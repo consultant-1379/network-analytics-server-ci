@@ -1,0 +1,43 @@
+---
+
+
+builds:
+
+  RFA250:
+    buildName: RFA250
+    buildConfluenceID: 197034522
+    buildJenkinsURL: https://fem114-eiffel004.lmera.ericsson.se:8443/jenkins/job/MT_RFA250/
+    buildLastProcessedBuildNumber: 0
+    buildPhaseTags:
+      - MTE
+
+  RFA250Staging:
+    buildName: RFA250 Staging
+    buildConfluenceID: 200241653
+    buildJenkinsURL: https://fem114-eiffel004.lmera.ericsson.se:8443/jenkins/job/MT_RFA250_Staging/
+    buildLastProcessedBuildNumber: 0
+    buildPhaseTags:
+      - MTE
+
+  LongLoop:
+    buildName: LongLoop
+    buildConfluenceID: 200241659
+    buildJenkinsURL: https://fem114-eiffel004.lmera.ericsson.se:8443/jenkins/view/03.LongLoop/job/LongLoop_Job/
+    buildLastProcessedBuildNumber: 0
+    buildPhaseTags:
+      - LongLoop
+
+email:
+
+
+general:
+
+  buildsToMonitor: 20
+  userName: assure
+  userPass: assure
+
+
+
+
+
+...

@@ -1,0 +1,38 @@
+#Expecting following format:
+#	server:serverName
+#		status service
+#	Where:
+#		"serverName" is the server hostname
+#		"status" is one of the following service statuses:
+#			online
+#			offline
+#			disabled
+#			legacy_run
+#		"service" is the service name 
+#
+#	eg:
+#		server:atrcxb1398
+#			online svc:/eniq/esm
+#			online svc:/eniq/dwh_reader
+#			offline svc:/eniq/dbmon
+#
+#	Multiple servers can be defined on one line. Separate entries with commas:
+#
+#		server:atrcxb1398, server:atrcxb1398
+#			online svc:/eniq/esm
+#			online svc:/eniq/dwh_reader
+#
+#	Comments (#) may only be placed at the start of lines; otherwise they will be interpreted as-is
+
+
+server:atrcxb2338
+	online svc:/eniq/esm
+	online svc:/eniq/rmiregistry
+	online svc:/eniq/licmgr
+	online svc:/eniq/connectd
+	online svc:/eniq/repd
+	online svc:/eniq/dwhdb
+	online svc:/eniq/webserver
+	online svc:/eniq/engine
+	online svc:/eniq/scheduler
+	online svc:/eniq/sim

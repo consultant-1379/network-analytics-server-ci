@@ -1,0 +1,22 @@
+#
+# ENIQ service list
+# Format is:
+# <ip_address>::<hostname>::<service>::<service_group>
+#
+1.1.1.5::eniq_oss_1::eniq_oss_1
+10.45.192.190::atrcxb2338::dwh_reader_1
+10.45.192.190::atrcxb2338::dwhdb
+10.45.192.190::atrcxb2338::engine
+10.45.192.190::atrcxb2338::licenceservice
+10.45.192.190::atrcxb2338::repdb
+10.45.192.190::atrcxb2338::scheduler
+10.45.192.190::atrcxb2338::webserver
+10.45.22.176::nas1::nas1
+10.45.22.177::nas2::nas2
+10.45.22.178::nas3::nas3
+10.45.22.179::nas4::nas4
+10.45.22.180::nas5::nas5
+10.45.22.181::nas6::nas6
+10.45.22.182::nas7::nas7
+10.45.22.183::nas8::nas8
+10.45.22.188::nasconsole::nasconsole

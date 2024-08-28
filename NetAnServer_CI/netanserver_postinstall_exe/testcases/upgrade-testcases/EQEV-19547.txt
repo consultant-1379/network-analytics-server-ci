@@ -1,0 +1,4 @@
+CMD||NetAnServer18A_18.0.3_0033-1||Powershell, C:\Ericsson\NetAnServer\Server\7.9\tomcat\bin\config.bat show-deployment --tool-password=Ericsson01||Core,Help Files,Loader||0
+LOG||NetAnServer18A_18.0.3_0033-3||Network Analytics Server deployment package successfully completed||NetAnServer||PRESENT
+LOG||NetAnServer18A_18.0.3_0033-4||Network Analytics Server deployment package failed||NetAnServer||NOTPRESENT
+CMD||NetAnServer16A_10_0007||Powershell, Test-Path C:\Ericsson\tmp\Software\DeploymentDirectory||False||0

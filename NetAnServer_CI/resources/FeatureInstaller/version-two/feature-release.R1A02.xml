@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<feature>
+	<product-id>CNA 111 11111</product-id>
+	<feature-name>FI Test</feature-name>
+	<release>16A</release>
+	<system-area>NetAnServerCI/FeatureInstaller</system-area>
+    <datasource-guid>656cd862-fc63-43f5-ae4b-08d018591d10</datasource-guid> 
+    <ericsson-library>true</ericsson-library>
+</feature>

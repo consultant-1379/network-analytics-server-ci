@@ -1,0 +1,1 @@
+CMD||NetAnServer16B_2_0028||Powershell, C:\netanserver_postinstall_exe\resources\scripts\testFeatureVersions.ps1||passed||0

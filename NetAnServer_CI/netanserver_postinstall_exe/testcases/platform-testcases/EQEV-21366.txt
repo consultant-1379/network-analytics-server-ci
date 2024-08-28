@@ -1,0 +1,11 @@
+CMD||NetAnServer18A_18.0.3_0034||dir,C:\Ericsson\NetAnServer\Server\7.9\tomcat\lib||jconn-4.jar||0
+CMD||NetAnServer18A_18.0.3_0035||C:\Ericsson\NetAnServer\Server\7.9\tomcat\bin\config.bat,list-admins,-t Ericsson01||NetAnServer02||0
+CMD||NetAnServer17B_17.2.4_0007||sqlcmd,-Unetanserver,-PEricsson01,-Q,SELECT * from CONFIG_HISTORY||Network Analytics Server Default Configuration||0
+CMD||NetAnServer18A_18.0.3_0036||dir,C:\Ericsson\NetAnServer\Server\7.9\tomcat\bin||configuration.xml||0
+LOG||NetAnServer18A_18.0.3_0037||Deploying jconn4 driver to C:\Ericsson\NetAnServer\Server\7.9\tomcat\lib\||NetAnServer||PRESENT
+LOG||NetAnServer17B_17.2.4_0010-1||Entering the default configuration of Server Component - Network Analytics Server||NetAnServer||PRESENT
+LOG||NetAnServer17B_17.2.4_0010-2||INFO: Configuration of Network Analytics Server successfully completed||NetAnServer||PRESENT
+CMD||NetAnServer18A_18.0.3_0039||Powershell, C:\netanserver_postinstall_exe\resources\scripts\count_active_datasource_templates.ps1||Count:1,Sybase||0
+CMD||NetAnServer17B_17.2.4_0012||Powershell, Test-Path C:\Ericsson\tmp\Resources\jconn||False||0
+CMD||NetAnServer17B_17.2.4_0013||Powershell, Test-Path "C:\Ericsson\tmp\Resources\config"||False||0
+CMD||NetAnServer17B_17.2.4_0014||Powershell, Test-Path "C:\Ericsson\tmp\Scripts"||False||0

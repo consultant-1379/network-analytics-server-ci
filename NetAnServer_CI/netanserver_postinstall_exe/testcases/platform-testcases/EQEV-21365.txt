@@ -1,0 +1,8 @@
+CMD||NetAnServer17B_17.2.4_0003-1||sqlcmd,-Usa,-PEricsson01,-Q,exec sp_databases||netAnServer_db||0
+CMD||NetAnServer17B_17.2.4_0003-2||sqlcmd,-Usa,-PEricsson01,-Q,SELECT name FROM sys.server_principals||netanserver||0
+LOG||NetAnServer17B_17.2.4_0004-1||MS SQL Server Running||NetAnServer||PRESENT
+LOG||NetAnServer17B_17.2.4_0004-2||MS SQL Server database netAnServer_db created successfully||NetAnServer||PRESENT
+LOG||NetAnServer17B_17.2.4_0004-3||ERROR: Cannot connect to the MS SQL server, please recheck the installation||NetAnServer||NOTPRESENT
+LOG||NetAnServer17B_17.2.4_0004-4||ERROR||log||NOTPRESENT
+LOG||NetAnServer17B_17.2.4_0004-5||error||log||NOTPRESENT
+LOG||NetAnServer17B_17.2.4_0004-6||Error||log||NOTPRESENT
